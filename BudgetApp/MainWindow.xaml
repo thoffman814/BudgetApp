@@ -1,0 +1,25 @@
+﻿<Window x:Class="BudgetApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BudgetApp"
+        Title="Budget" Height="500" Width="500"
+        ResizeMode="NoResize">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Monthly">
+                <!--For setting monthly budget based on categories and viewing previous monthy purchases-->
+            </TabItem>
+            
+            <TabItem Header="Categories">
+                <!--Show category list and add new category-->
+            </TabItem>
+            
+            <TabItem Header="Purchases">
+                <!--Enter a purchase with category-->
+                <!--View previous purchases-->
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
